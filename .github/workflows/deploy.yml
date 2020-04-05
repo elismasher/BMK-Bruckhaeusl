@@ -1,0 +1,16 @@
+name: Deploy
+
+on: push
+
+jobs:
+  ftp-deploy:
+    name: FTP Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master2
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      with:
+        ftp-server: ftp://w007faff.kasserver.com/joomla03/
+        ftp-username: f009e61c
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
