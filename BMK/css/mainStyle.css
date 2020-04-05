@@ -1,0 +1,635 @@
+.mittig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 400;
+    color: #DAA520;
+    margin: 0em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a {
+    color: #565656;
+}
+
+a:hover {
+    color: #474747;
+}
+
+/*---------- Navigation ----------*/
+.navigationMobile {
+    display: none;
+    z-index: 9999;
+    margin-bottom: -20px;
+}
+
+.mobileNavLogo {
+    height: 70px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 43%;
+}
+
+.navigationPC1 {
+    display: block;
+}
+
+.uk-navbar-left ul li a {
+    color: white;
+}
+
+.uk-navbar-left ul li a:hover {
+    color: #faee00;
+    background-color: #a90808;
+    border-radius: 30px;
+}
+
+.uk-navbar-left ul li ul li a {
+    color: #383838;
+}
+
+.uk-navbar-left ul li ul li a:hover {
+    color: #b20022;
+    background-color: transparent;
+}
+
+/*---------- Social Media ----------*/
+.uk-navbar-right li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+/*---------- Pending ----------*/
+.pending {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    width: 700px;
+}
+
+/*------------ Nächstes Event -----------*/
+
+
+
+
+/*---------- Border ----------*/
+.border1 {
+    width: 80%;
+    height: 50px;
+    border-bottom: 1px solid #5e5e5e;
+    position: center;
+    margin: auto;
+}
+
+.border1 img {
+    height: 80px;
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+/*---------- Background 1 ----------*/
+.background1 {
+    margin-top: 80px;
+}
+
+.blackOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+/*----------- Button ----------*/
+button3 {
+    margin-top: 20px;
+    padding: 10px 30px;
+
+    color: #3a3a3a;
+    background-color: #f9f9f9;
+    box-shadow: 0px 17px 10px -7px rgba(0, 0, 0, 0.4);
+
+    border: solid 3px #f9f9f9;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: Helvetica;
+
+    transition: ease-in-out all 300ms;
+}
+
+button3:hover {
+    color: #f9f9f9;
+    background-color: transparent;
+
+    transform: translate(0px, -10px);
+
+    box-shadow: 0px 30px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+
+button2 {
+    margin-top: 20px;
+    padding: 10px 30px;
+
+    color: #f7f7f7;
+    background-color: #b20022;
+    box-shadow: 0px 17px 10px -7px rgba(0, 0, 0, 0.2);
+
+    border: solid 3px #b20022;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family: Helvetica;
+
+    transition: ease-in-out all 300ms;
+}
+
+button2:hover {
+    color: #b20022;
+    background-color: transparent;
+
+    transform: translate(0px, -10px);
+
+    box-shadow: 0px 30px 15px -10px rgba(0, 0, 0, 0.2);
+}
+
+
+/*-------------- Footer -----*/
+#links {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 80px;
+    background-color: #494949;
+    margin-bottom: 0 !important;
+    bottom: 0;
+
+}
+
+#rechts {
+    float: right;
+    text-align: center;
+    width: 25%;
+    height: 80px;
+    margin-top: -80px;
+    background-color: #494949;
+    margin-bottom: 0 !important;
+    bottom: 0;
+
+}
+
+#mitte {
+    text-align: center;
+    width: 75%;
+    height: 80px;
+    background-color: #494949;
+    margin-bottom: 0 !important;
+    bottom: 0;
+
+}
+
+#mitte li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.footerIcons {
+    margin-top: 60px;
+}
+
+.footerLeft {
+    margin-top: 30px;
+    color: white;
+    list-style: none;
+}
+
+
+
+
+#wrap {
+    display: none;
+    position: relative;
+}
+
+
+
+
+/* ----------- LogIn ----------- */
+input[type=text],
+input[type=password] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.buttonGreen {
+    background-color: #4CAF50;
+    right: 0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.buttonGreen:hover {
+    opacity: 0.8;
+    background-color: #4CAF50;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 0%;
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 500px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/*------------ Galerie --------------------*/
+
+.uk-card-body h3 {
+    margin-top: 70px;
+}
+
+.galerie {
+    margin: auto;
+    text-align: center;
+}
+
+#galerieUeberschrift{
+    font-size: 1.3em;
+    color: #494949;
+    margin-top: 70px;
+}
+
+.galerie img {
+    margin: 10px 10px 10px 10px;
+}
+
+.cardsHome {
+    width: 400px;
+}
+
+/*------------------ MainSection ----------*/
+.textMain {
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardsMain {
+    width: 400px !important;
+    margin: 50px 50px 0px 50px;
+}
+
+.SubNavCards {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mittigCardsMembers {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------- Kalender -------------*/
+.tabelleLinksTermine {
+    margin: auto;
+    width: 400px;
+    height: auto;
+}
+
+.KalenderAnleitung {
+    text-align: center;
+}
+
+/*------------ Social Media ------------*/
+
+
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -200px;
+    top: 230px;
+    width: 270px;
+    z-index: 1100;
+}
+
+.sticky li {
+    list-style-type: none;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 3px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #606060;
+}
+
+.sticky li:hover {
+    margin-left: -115px;
+}
+
+.sticky li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px;
+}
+
+.sticky li p {
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+    font-size: 11px;
+    color: #606060;
+}
+
+.sticky li p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sticky li p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/*--------- Impressum --------*/
+.impressum {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.impressumInnen {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.impressum a {
+    color: #c42121;
+    text-decoration-line: underline;
+}
+
+
+
+
+/*------------ Media --------------------*/
+
+@media only screen and (min-height: 1250px) and (max-height: 1400px) {
+    #wrap {
+        display: block;
+        height: 36%;
+    }
+
+
+}
+
+@media only screen and (min-height: 1000px) and (max-height: 1250px) {
+    #wrap {
+        display: block;
+        height: 20%;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    .navigationPC1 {
+        display: none;
+    }
+
+    .navigationMobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .mittigCardsMembers {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mobileNavLogo {
+        margin-left: 38%;
+    }
+
+    .SubNavCards {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .textMain {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .pending {
+        width: 100%;
+    }
+
+    .mobileNavLogo {
+        margin-left: 35%;
+    }
+
+    .impressum {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footerIcons {
+        margin-top: 40px;
+    }
+
+    .mobileNavLogo {
+        margin-left: 30%;
+    }
+
+    .modal-content {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    .cardsMain {
+        width: 100%;
+        margin: 50px 0px 50px 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .mittigCardsMembers {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .cardsHome {
+        width: 100%;
+    }
+
+    .LogoTermine {
+        display: none;
+    }
+
+    .impressum {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+}

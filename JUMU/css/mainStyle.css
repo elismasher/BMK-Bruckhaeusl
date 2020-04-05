@@ -1,0 +1,1259 @@
+.mittig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin: 0em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+
+a {
+    color: #565656;
+}
+
+a:hover {
+    color: #474747;
+}
+
+/*-------- Facebook ----------*/
+.fb-like-box,
+.fb-like-box span,
+.fb-like-box span iframe[style] {
+    width: 100% !important;
+}
+
+
+
+
+/*---------- Navigation ----------*/
+.navigationMobile {
+    display: none;
+    z-index: 9999;
+    margin-bottom: -20px;
+}
+
+.mobileNavLogo {
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.navigationPC1 {
+    display: block;
+}
+
+.uk-navbar-left ul li a {
+    color: white;
+}
+
+.uk-navbar-left ul li a:hover {
+    color: #faee00;
+    background-color: #dd2121;
+    border-radius: 30px;
+}
+
+.uk-navbar-left ul li ul li a {
+    color: #383838;
+}
+
+.uk-navbar-left ul li ul li a:hover {
+    color: #ce1a02;
+    background-color: transparent;
+}
+
+
+/*---------- Social Media ----------*/
+.uk-navbar-right li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+/*----------- Navigation Left --------------*/
+h8 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 3em;
+    color: #262626;
+}
+
+ion-icon {
+    margin-right: 10px;
+}
+
+.navLeft {
+    background-color: #C11F09;
+    /*#bd0000*/
+    width: 300px;
+    height: 100%;
+    position: fixed;
+}
+
+.navLeft a {
+    display: inline-block;
+    position: relative;
+}
+
+.navLeft a:hover {
+    text-decoration: none;
+}
+
+.navLeft ul li {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.navLeft ul li:hover {
+    background-color: #ce1a02;
+}
+
+.navLeft ul li a {
+    color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+
+/*effect-underline2*/
+a.effect-underline2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 3.1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+a.effect-underline2:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*effect-underline3*/
+a.effect-underline3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 0em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: -6px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+a.effect-underline3:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*------------ MainJUMU ------------*/
+.mainJUMU {
+    padding-left: 300px;
+}
+
+/*----------- Willkommen -------------*/
+
+.willkommen {
+    margin-top: 200px;
+    background-color: #dbdbdb;
+}
+
+.willkommensText {
+    margin-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+.willkommensText p {
+    color: black;
+}
+
+.willkommensBild {
+    margin-left: 800px;
+    margin-top: -440px;
+}
+
+.willkommensBild img {
+    height: 500px;
+    width: auto;
+}
+
+/*--------- Beiträge ----------*/
+.beiträge {
+    margin-top: 0px;
+    width: 70%;
+}
+
+/*--------- Termine ----------*/
+
+
+
+
+h13 {
+    color: #303030;
+    font-size: 2em;
+    line-height: 0em;
+}
+
+h14 {
+    font-size: 1em;
+}
+
+/*------- Mitglieder ----------*/
+.mitglieder {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.mitglieder img {
+    height: 50px;
+    width: 50px;
+    margin-left: 50%;
+}
+
+.mitglieder a {
+    display: inline-block;
+    position: relative;
+}
+
+.mitglieder a:hover {
+    text-decoration: none;
+}
+
+/*effect-underline*/
+a.effect-underline:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 0.6em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: -10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+a.effect-underline:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/*------- Galerie ----------*/
+.galerie {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.sliderGalerieMobile {
+    display: none;
+}
+
+
+
+
+/*----------- Instrument erlernen -------------*/
+.instrumentErlernen {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 50px;
+}
+
+.instrumenteZumErlernen {
+    margin: 50px 12% 50px 12%;
+}
+
+.instrument {
+    transform: rotate(45deg);
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: -8px;
+}
+
+.instrument img {
+    margin-top: 15px;
+    margin-left: 15px;
+
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+}
+
+.instrument:hover{
+    transition: transform 0.8s;
+    transform: scale(1.12);
+    border-style: double;
+}
+
+
+
+#frei {
+    border-color: #3b3a3a;
+}
+
+#besetzt {
+    border-color: #d80c0c;
+}
+
+.instrument:hover img {
+    transition: transform 1.0s;
+    transform: rotate(-45deg);
+}
+
+
+.nachRechtsInstrument {
+    margin-left: 80px;
+}
+
+
+/*--------- Ausbildungsweg ------*/
+.ausbildungsweg {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.ausbildungswegGrafisch {
+    margin: 50px 12% 50px 12%;
+}
+
+.ausbildungswegGrafisch th {
+    text-align: center;
+}
+
+.ausbildungswegGrafisch td {
+    text-align: center;
+}
+
+.ausbildungswegGrafisch h6 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: -20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.awGesammt {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.awArrow1,
+.awArrow2 {
+    margin-top: 55px;
+}
+
+
+
+
+/*effect-box*/
+.effect-box:after,
+.effect-box:before {
+    content: '';
+    position: absolute;
+    left: -10%;
+    display: inline-block;
+    height: 1.8em;
+    width: 120%;
+    margin-top: -5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+
+}
+
+.effect-box:before {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+}
+
+.effect-box:after {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.effect-box:hover:after,
+.effect-box:hover:before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+
+
+
+.arrow {
+    /* more triangle */
+    margin-top: 10px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-width: 3px 3px 0 0;
+    transform: rotate(45deg);
+}
+
+.arrow:before,
+.arrow:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-width: 3px 3px 0 0;
+}
+
+.arrow:before {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-width: 3px 3px 0 0;
+    /* top - distance minus border */
+    top: 7px;
+    left: -10px;
+}
+
+.arrow:after {
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-width: 3px 3px 0 0;
+    /* top - distance plus border */
+    top: -13px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*---------- Border ----------*/
+.border1 {
+    width: 80%;
+    height: 50px;
+    border-bottom: 1px solid #5e5e5e;
+    position: center;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.border1 img {
+    height: 80px;
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.border2 {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #5e5e5e;
+    position: center;
+    margin: auto;
+    margin-top: -50px;
+}
+
+
+/*-------------- Footer -----*/
+.footer {
+    display: none;
+}
+
+#links {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 80px;
+    background-color: #494949;
+    margin-bottom: 0 !important;
+    bottom: 0;
+
+}
+
+#rechts {
+    float: right;
+    text-align: center;
+    width: 25%;
+    height: 80px;
+    margin-top: -80px;
+    background-color: #494949;
+    margin-bottom: 0 !important;
+    bottom: 0;
+
+}
+
+#mitte {
+    text-align: center;
+    width: 75%;
+    height: 80px;
+    background-color: #494949;
+    margin-bottom: 0 !important;
+    bottom: 0;
+
+}
+
+#mitte li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.footerIcons {
+    margin-top: 60px;
+}
+
+.footerLeft {
+    margin-top: 30px;
+    color: white;
+    list-style: none;
+}
+
+
+
+
+#wrap {
+    display: none;
+    position: relative;
+}
+
+
+
+/*------------ Galerie --------------------*/
+
+.uk-card-body h3 {
+    margin-top: 70px;
+}
+
+.galerie2 {
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.galerie2 img {
+    margin: 10px 10px 10px 10px;
+}
+
+.cardsHome {
+    width: 400px;
+}
+
+
+
+/* ----------- LogIn ----------- */
+input[type=text],
+input[type=password] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.buttonGreen {
+    background-color: #4CAF50;
+    right: 0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.buttonGreen:hover {
+    opacity: 0.8;
+    background-color: #4CAF50;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 0%;
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 500px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+
+
+
+/*------------ Social Media ------------*/
+
+
+.sticky-container {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -200px;
+    top: 230px;
+    width: 270px;
+    z-index: 1100;
+}
+
+.sticky li {
+    list-style-type: none;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 43px;
+    padding: 0px;
+    margin: 0px 0px 3px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #606060;
+}
+
+.sticky li:hover {
+    margin-left: -115px;
+}
+
+.sticky li img {
+    float: left;
+    margin: 5px 4px;
+    margin-right: 5px;
+}
+
+.sticky li p {
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+    font-size: 11px;
+    color: #606060;
+}
+
+.sticky li p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sticky li p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*------------ Media --------------------*/
+
+@media only screen and (max-width: 1890px) {
+    .willkommensText {
+        margin-left: 100px;
+    }
+
+    .willkommensBild {
+        margin-left: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 1760px) {
+    .willkommensText {
+        margin-left: 50px;
+    }
+
+    .willkommensBild {
+        margin-left: 600px;
+    }
+}
+
+@media only screen and (max-width: 1720px) {
+
+    
+
+    .beiträge {
+        width: 100%;
+    }
+
+    .galerie h3 {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 1660px) {
+    .willkommen {
+        margin-top: 100px;
+    }
+
+    .willkommensText h1 {
+        margin-top: -30px;
+    }
+
+    .willkommensText p {
+        margin-bottom: -25px;
+    }
+
+    .willkommensBild {
+        margin-top: -350px;
+    }
+
+    .willkommensBild img {
+        height: 400px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    .willkommensText h1 {
+        margin-top: 700px;
+    }
+
+    .willkommensText p {
+        margin-bottom: 20px;
+    }
+
+    .willkommensText {
+        width: 90%;
+    }
+
+    .willkommen {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .willkommensBild {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 0px;
+        margin-top: -980px;
+        margin-bottom: 250px;
+    }
+
+    .willkommensBild img {
+        height: auto;
+    }
+
+
+    .nachRechtsInstrument {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .willkommensText h1 {
+        margin-top: 600px;
+    }
+
+    .willkommensBild {
+        margin-top: -880px;
+        margin-bottom: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 1355px) {
+    .tabelleTermineJumu {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1355px) {
+ 
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .willkommensText h1 {
+        margin-top: 520px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -800px;
+        margin-bottom: 250px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+    .navigationPC1 {
+        display: none;
+    }
+
+    .navigationMobile {
+        display: block;
+    }
+
+    .navLeft {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .mainJUMU {
+        padding-left: 0px;
+    }
+
+    .willkommensText h1 {
+        margin-top: 620px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -900px;
+        margin-bottom: 250px;
+    }
+
+   
+}
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .willkommensText h1 {
+        margin-top: 550px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -850px;
+        margin-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .instrumenteZumErlernen {
+        margin: 50px 40% 50px 40%;
+    }
+
+    .nachRechtsInstrument {
+        margin-left: 0px;
+    }
+
+    .awArrow1,
+    .awArrow2 {
+        transform: rotate(90deg) translateX(40%);
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .mittigCardsMembers {
+        margin-left: 20%;
+    }
+
+    .willkommensText h1 {
+        margin-top: 500px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -800px;
+        margin-bottom: 250px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mobileNavLogo {
+        margin-left: 28%;
+    }
+
+    .SubNavCards {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .willkommensText h1 {
+        margin-top: 470px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -770px;
+        margin-bottom: 250px;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .textMain {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .willkommensText h1 {
+        margin-top: 400px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -730px;
+        margin-bottom: 250px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 700px) {
+    .pending {
+        width: 100%;
+    }
+
+    .mobileNavLogo {
+        margin-left: 25%;
+    }
+
+    .impressum {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .willkommensText {
+        width: 80%;
+    }
+
+    .willkommensText h1 {
+        margin-top: 320px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -710px;
+        margin-bottom: 250px;
+    }
+
+    .sliderGaleriePC {
+        display: none;
+    }
+
+    .sliderGalerieMobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .willkommensText h1 {
+        margin-top: 270px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -700px;
+        margin-bottom: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 585px) {
+    .willkommensText h1 {
+        margin-top: 250px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -720px;
+        margin-bottom: 300px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .willkommensText h1 {
+        margin-top: 250px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -720px;
+        margin-bottom: 300px;
+    }
+
+    .ausbildungsweg th {
+        font-size: 0.6em;
+    }
+
+    .ausbildungsweg td {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footerIcons {
+        margin-top: 40px;
+    }
+
+    .mobileNavLogo {
+        margin-left: 20%;
+    }
+
+    .modal-content {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    .cardsMain {
+        width: 100%;
+        margin: 50px 0px 50px 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .mittigCardsMembers {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .cardsHome {
+        width: 100%;
+    }
+
+    .LogoTermine {
+        display: none;
+    }
+
+    .impressum {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .willkommen {
+        margin: 0px;
+    }
+
+    .willkommensText h1 {
+        margin-top: 300px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -700px;
+        margin-bottom: 320px;
+        margin-left: -50px;
+        padding-right: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 482px) {
+    .willkommensText h1 {
+        margin-top: 250px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -700px;
+        margin-bottom: 320px;
+        margin-left: -50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .mitgliederListe {
+        margin-left: -70px;
+        margin-right: -30px;
+    }
+
+    .willkommensBild {
+        margin-bottom: 380px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .willkommensText h1 {
+        margin-top: 220px;
+    }
+
+    .willkommensBild {
+        padding-top: 30px;
+        margin-top: -740px;
+        margin-left: -50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .ausbildungsweg th {
+        font-size: 0.5em;
+    }
+
+    .ausbildungsweg td {
+        font-size: 0.6em;
+    }
+
+    .arrow {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .mitgliederListe {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
