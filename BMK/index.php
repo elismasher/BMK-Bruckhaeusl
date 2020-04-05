@@ -293,7 +293,7 @@
     </div>
     <div uk-scrollspy="target: > div; cls:uk-animation-scale-up; delay: 300">
         <div>
-            <h1>BMK Bruckhäusl!</h1>
+            <h1>BMK Bruckhäusl</h1>
         </div>
     </div>
 
