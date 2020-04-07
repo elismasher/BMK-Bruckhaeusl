@@ -310,7 +310,7 @@
 
 
     <!-- nächster großer Auftritt -->
-
+    <!--
     <br>
     <div uk-scrollspy="target: > div; cls:uk-animation-slide-left-medium; delay: 500">
         <div class="naechstenAuftritte">
@@ -370,7 +370,7 @@
         </div>
     </div>
 
-
+    -->
 
 
 
